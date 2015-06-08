@@ -1,0 +1,11 @@
+name: HelloWorld
+
+author: Maria
+main: HelloWorldPlugin
+
+commands:
+  hello:
+    description: Hello World command
+    usage: /<command>
+
+version: 0.2

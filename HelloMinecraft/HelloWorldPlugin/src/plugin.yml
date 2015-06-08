@@ -1,0 +1,23 @@
+name: HelloWorld
+
+author: NotMatt
+main: HelloWorldPlugin
+
+commands:
+  hello:
+    description: Hello World command
+    usage: /hello
+
+  killp:
+    descritptopn: Kill a Player
+    usage: /killp
+
+up:
+    descritptopn: Let the bodies hit the floor!
+    usage: /up
+
+creep:
+    descritptopn: Flying Creepers! Watch out.
+    usage: /creep
+
+version: 0.5
