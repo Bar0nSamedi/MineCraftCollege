@@ -116,7 +116,7 @@ public class HelloWorldPlugin extends JavaPlugin implements Listener {
 
 
 
-
+/*
     @EventHandler
     public void onPlayerInteractBlock(PlayerInteractEvent event) {
         Player p = event.getPlayer();
@@ -157,3 +157,4 @@ public class HelloWorldPlugin extends JavaPlugin implements Listener {
     }
 
 }
+*/

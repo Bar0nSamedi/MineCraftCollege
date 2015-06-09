@@ -1,0 +1,12 @@
+name: Stuck
+
+author: ML
+website:
+
+main: stuck.Stuck
+
+commands:
+    stuck:
+        description: "Trap a player in cage of blocks"
+
+version: 0.1

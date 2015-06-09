@@ -1,0 +1,10 @@
+name: CowShooter
+
+author: ML
+website:
+
+main: cowshooter.CowShooter
+
+commands:
+
+version: 0.1
