@@ -19,9 +19,11 @@ public class Stuck extends JavaPlugin {
                            String commandLabel, String[] args) {
     if (commandLabel.equalsIgnoreCase("Stuck")) {
       if(args.length == 1) {
+          @SuppressWarnings("deprecation")
         Player player = getServer().getPlayer(args[0]);
         if (player != null) { return stuck(player, Material.STONE); }
       } else if(args.length == 2) {
+          @SuppressWarnings("deprecation")
           Player player = getServer().getPlayer(args[0]);
           Material mat = Material.matchMaterial(args[1]);
           if (player != null && mat != null) {
